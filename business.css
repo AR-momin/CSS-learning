@@ -1,0 +1,11 @@
+
+div{
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+  background-color: bisque;
+    width: 450px;
+  text-align: center; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
