@@ -1,0 +1,36 @@
+div {
+  width: 20vw;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: beige;
+  box-shadow: 0px 4px 10px rgba(0, 0 ,0, 0.8);
+}
+
+img {
+  border-radius: 8px;
+  width: 20vw;
+  margin-bottom: 5px;
+}
+
+span {
+  border: 1px solid black;
+  border-radius: 14px;
+  padding: 4px;
+  color: darkgray;
+}
+
+p {
+  color: gray;
+}
+
+button{
+color: wheat;
+background-color:brown;
+border: 1px solid black;
+border-radius: 8px;
+display: block;
+margin:auto;
+padding: 3px;
+}
