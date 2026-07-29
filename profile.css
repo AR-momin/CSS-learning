@@ -1,0 +1,25 @@
+.card {
+  width: 45vw;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+  margin: auto; 
+  padding: 2px;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px; ;
+}
+
+p , label{
+  font-weight: bold ;
+}
+
+.card:hover{
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+}
