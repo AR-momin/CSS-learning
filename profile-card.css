@@ -1,0 +1,48 @@
+.card {
+  width: 40vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+  background-color:bisque;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+img {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  background-color: cadetblue;
+}
+
+button {
+  width: 100px;
+  margin: 2px auto;
+  display: inline;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 14px;
+  padding: 10px 5px;
+}
+
+button:hover {
+  color: black;
+  background-color: aquamarine;
+  cursor: pointer;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 1);
+}
+
+.card:hover {
+  /* margin-top: 10px; */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 1);
+}
+
+img:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 1);
+  background-color: whitesmoke;
+}
+
