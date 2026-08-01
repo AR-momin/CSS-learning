@@ -1,0 +1,49 @@
+div {
+  border: 2px solid black;
+  width: 20vw;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.one {
+  background-color: beige;
+}
+
+.two {
+  background-color: blanchedalmond;
+}
+
+.three {
+  background-color: burlywood;
+}
+
+button {
+  background-color: rgb(81, 255, 229);
+  width: 10vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(23, 151, 132);
+  color: aqua;
+}
+
+div:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+}
+
+p {
+  font-weight: 900;
+}
