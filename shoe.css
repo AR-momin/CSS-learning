@@ -20,6 +20,8 @@ img {
 
 .two {
   background-color: blanchedalmond;
+  /* position: absolute;
+  left: 100px; */
 }
 
 .three {
@@ -32,12 +34,12 @@ button {
   border: 1px solid black;
   border-radius: 10px;
   padding: 5px 10px;
-  cursor: pointer;
 }
 
 button:hover {
   background-color: rgb(23, 151, 132);
   color: aqua;
+  cursor: pointer;
 }
 
 div:hover {
@@ -47,3 +49,16 @@ div:hover {
 p {
   font-weight: 900;
 }
+
+/* .tag{
+  display: inline-block;
+  position: relative;
+  bottom: 290px;
+  left: 70px;
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 1;
+} */

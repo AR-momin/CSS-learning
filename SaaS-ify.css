@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(215, 239, 180);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: rgb(105, 207, 207);
+  height: 40px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+.parent {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 95vw;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(105, 207, 207);
+}
+
+.cards {
+  border: 2px solid black;
+  height: 50vh;
+  padding: 20px;
+  width: 20vw;
+  align-content: center;
+  border-radius: 10px;
+  list-style-position: inside;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card-1 {
+  background-color: rgb(105, 235, 164);
+}
+
+.card-2 {
+  background-color: rgb(57, 231, 135);
+}
+
+.card-3 {
+  background-color: rgb(105, 235, 164);
+}
+
+button {
+  width: 15vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(105, 207, 207);
+  padding: 10px;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(43, 141, 141);
+  cursor: pointer;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 1);
+}
