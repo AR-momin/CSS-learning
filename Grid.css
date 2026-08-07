@@ -1,0 +1,30 @@
+.container{
+  border: 2px solid black;
+  height: 60vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2 , 1fr);
+  gap: 2px;
+}
+
+.card{
+  border: 2px solid black;
+  align-content: center;
+  justify-items: center;
+}
+
+.card-1{
+  grid-column: 1/3;
+  background-color: cadetblue;
+}
+.card-2{
+  background-color: rgb(225, 166, 110);
+}
+.card-3{
+  background-color: rgb(113, 82, 53);
+}
+.card-4{
+  grid-column: 2/4;
+  background-color: rgb(170, 247, 249);
+}

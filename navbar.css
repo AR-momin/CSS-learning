@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+li {
+  padding-top: 10px;
+}
+
+.ab-com {
+  font-size: 6px;
+}
+
+.logo {
+  position: relative;
+  right: 45px;
+  bottom: 35px;
+}
